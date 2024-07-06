@@ -1,0 +1,50 @@
+/* General styles */
+body {
+    background-color: rgb(33, 33, 33);
+    font-family: monospace;
+    text-align: left; /* Align text to the left */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: cyan;
+    text-align: left; /* Ensure heading is left-aligned */
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    text-align: left; /* Ensure paragraphs are left-aligned */
+}
+
+a {
+    color: cyan;
+}
+
+/* Container div styles */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Media query for larger screens (PC) */
+@media (min-width: 1000px) {
+    div {
+        width: 32%;
+    }
+}
+hr {
+    border: none; /* Remove default border */
+    border-top: 1px solid white; /* Add a solid white border on top */
+    width: 100%; /* Ensure it takes the full width of its container */
+    height: 1px; /* Explicitly set height to ensure it is visible */
+}
