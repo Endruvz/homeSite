@@ -24,6 +24,7 @@ p {
 
 a {
     color: cyan;
+    text-decoration: none;
 }
 
 /* Container div styles */
@@ -36,15 +37,31 @@ a {
 }
 
 
+
 /* Media query for larger screens (PC) */
 @media (min-width: 1000px) {
     div {
         width: 32%;
     }
 }
+
 hr {
     border: none; /* Remove default border */
     border-top: 1px solid white; /* Add a solid white border on top */
     width: 100%; /* Ensure it takes the full width of its container */
     height: 1px; /* Explicitly set height to ensure it is visible */
+}
+
+.people{
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+.navbar{
+    margin-bottom: 0, auto;
+}
+
+img{
+    margin: 2px
 }
